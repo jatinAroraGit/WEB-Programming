@@ -1,0 +1,85 @@
+/* Place all of your CSS Code in this file */
+
+/********************************************************************************* 
+*
+* WEB222 – Assignment #4a
+*
+* I declare that this assignment is my own work in accordance with Seneca 
+* Academic Policy. No part of this assignment has been copied manually or 
+* electronically from any other source (including web sites) or distributed to 
+* other students. 
+* 
+* Name: __JATIN ARORA__ Student ID: 136907162 Date: 07/19/2017 
+* 
+********************************************************************************/
+body{
+    color:red;
+    font-style: normal;
+    background:transparent;
+    background-image:url("https://cdn.pixabay.com/photo/2017/07/08/09/49/red-2483933_960_720.jpg");
+    
+}
+nav,footer{
+    background-color:black;
+}
+header{
+
+    background-image:url(https://cdn.pixabay.com/photo/2012/12/04/07/36/background-68622_960_720.jpg);
+    color:white;
+    font-family: 'Times New Roman';
+      font-size:40px;
+
+}
+div.center li a:hover 
+{
+    color: red;
+}
+
+h3 {
+    text-align: center
+}
+h1.Purrfect-Pets{
+    border: 15px;
+    font-family: Cambria;
+    font-size: 40px;
+}
+div.main-table-container{ 
+    border: 5px solid white;
+    max-height: 520px;
+    overflow-x: hidden;
+    overflow-y:auto;
+    background:transparent;
+   
+    color:wheat;  
+}
+table.main-table p span{
+   color:violet;
+   background-color:transparent;
+   text-decoration-style: solid;
+   text-decoration-line: underline;
+}
+table.main-table-top th{
+border: 5px solid purple;   
+padding: 15px 20px;
+
+background:palevioletred;
+color:wheat;
+}
+
+
+
+table.main-table td{
+    border: 5px solid palevioletred;    
+    text-align: left;
+    padding: 15px 20px;
+    text-decoration-line: underline;
+    text-decoration-style:solid ;
+    font-size: 18px;
+}
+
+table.main-table p span{
+   color:violet;
+   background-color:transparent;
+   text-decoration-style: solid;
+   text-decoration-line: underline;
+}

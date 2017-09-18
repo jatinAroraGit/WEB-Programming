@@ -1,0 +1,6 @@
+Hey There,
+
+This repository contains 4 Assignments based on HTML, CSS, JAVASCRIPT and some JSON.
+Each Assignment folder has a word/pdf document that explains the purpose of the assignment.
+
+Enjoy!.

@@ -1,0 +1,365 @@
+/*////////////
+WEB222 
+ASSIGNMENT 5
+JATIN ARORA 
+(136897162)
+////////////*/
+
+/*Website Layout CSS*/
+body {
+	font-family: Verdana;
+	font-size: 75%;
+	margin: 0;
+	padding: 5px 0 0px;
+	background: #000000 url(images/back3.jpg) repeat;
+	
+}
+
+/*Outer wrapper styles*/
+div#outer {
+	background-color:transparent;
+	border-radius: 25px;
+	width: 1160px;
+	margin: 0 auto;
+	
+	text-align: left;
+}
+
+/*Header styles*/
+div#header {
+	border-radius: 25px;
+	height: 250px;
+	background: url(images/header.jpg);
+	border: 10px solid #9DA1F8;
+	background-position:center;
+
+}
+
+div#header h1 {
+	display: block;
+	
+	line-height: 1.8;
+	text-indent: 100px;
+	text-align: center;
+	padding: 10px 15px 30px 15px;
+	color:darkviolet;
+	font-family:Helvetica, sans-serif;
+		font-weight: bold;
+	font-size: 40px;
+	object-position:center;
+   text-shadow: -3px 0 white, 0 3px white, 3px 0 white, 0 -3px white;
+
+	
+
+}
+
+  
+div #header h1 {
+	font-size: 70px;
+	line-height: 190px;
+	font-family: Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+ 
+
+
+div#header p {
+	font-size: 1.2em;
+	text-align: right;
+	font-weight: bold;
+	color: #FFFFFF;
+	padding: 170px 15px 0 0;
+}
+/*///////////////////////////////
+TABLE STYLE
+///////////////////////////////*/
+div.main-table-container{ 
+    border: 4px solid white;
+    max-height: 480px;
+
+	
+	border-radius: 20px;
+    overflow-x: hidden;
+    overflow-y:auto;
+    background:violet;
+   
+    color:darkorchid;  
+	font-size: 14px;
+}
+table.main-table p span{
+   color:gray;
+   font-weight: bold;
+   background-color:transparent;
+   font-size: 14px;
+   text-decoration-style: solid;
+   text-decoration-line: underline;
+}
+table.main-table-top th{
+border: 5px solid purple;   
+border-radius: 40px;
+padding: 15px 20px;
+font-size: 10px;
+background:palevioletred;
+color:white;
+text-align: center;
+font-size: 15px;
+margin-bottom: 30px;
+}
+
+
+
+table.main-table td{
+    border: 5px solid red;    
+    text-align: center;
+    padding: 15px 20px;
+  font-size: 15px;
+  font-weight: bold;
+    text-decoration-style:solid ;
+   
+}
+table.main-table h2{
+	color:purple;
+	text-align: center;
+	font-weight: bolder;
+}
+table.main-table p span{
+   color:gray;
+   font-weight: bold;
+   font-size: 14px;
+   background-color:transparent;
+   text-decoration-style: solid;
+  
+}
+
+/*Main content styles*/
+div#content {
+	border-radius: 25px;
+    border: 7px solid crimson;
+	background: #000000 url(http://www.powerpointhintergrund.com/uploads/2017/05/free-cool-blue-gradient-background-2.jpeg) repeat;
+	width: 600px;
+	height: 650px;
+	float: left;
+	padding: 20px;
+	margin: 10px 0;
+	
+}
+
+div#content h2.page-title {
+	padding: 0 0 6px;
+	border-bottom: 2px dotted #9DA1F8;
+	margin: 2px 0 10px;
+	color: wheat;
+	font-weight: bolder;
+}
+table {
+    width: 100%;
+}
+div#content p {
+	margin: 0;
+	padding: 10px 0;
+	line-height: 18px;
+	word-spacing: 2px;
+	color: #000000;
+	font-size: 18px;;
+}
+
+div#content p a {
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+div#content p a:hover {
+	color: #54D42A;
+}
+
+
+div#content p a:link {
+	font-size: 0.8em;
+	font-style: italic;
+	font-weight: bold;
+	padding: 0;
+	border-top: 1px dotted #304BD8;
+	color: #304BD8;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+/*Wrap styles*/
+div#wrap {
+	float: right;
+	width: 930px;
+}
+
+/*Left sidebar styles*/
+div#sidebar {
+	background-color: black;
+	border:6px solid palevioletred;
+	margin-top: 10px;
+	border-radius: 20px;
+	padding-top: 20px;
+	float: left;
+	width: 180px;
+	padding: 10px;
+}
+h2.section{
+	color:white;
+}
+/*Right sidebar styles*/
+div#right-sidebar {
+	background-color: black;
+	float: right;
+	width: 200px;
+	padding: 10px;
+	border:6px solid palevioletred;
+	margin-top: 10px;
+	border-radius: 20px;
+	
+}
+
+/*Common sidebar styles*/
+div#sidebar h2, div#right-sidebar h2 {
+	font: normal bold 1.2em/1.5 Verdana;
+	color: #FFFFFF;
+	padding: 3px 5px;
+	margin: 0;
+	background: #323298;
+}
+
+div#sidebar ul, div#right-sidebar ul {
+	margin: 0;
+	padding: 0px 0 30px;
+}
+
+div#sidebar li, div#right-sidebar li {
+	list-style-type: none;
+}
+
+div#sidebar ul li, div#right-sidebar ul li {
+	margin: 0;
+	padding: 3px 0 10px 20px;
+	
+}
+p.note{
+    color:white;
+}
+
+
+div#sidebar ul li a, div#right-sidebar ul li a {
+	text-decoration: none;
+	font-size: 1em;
+	color: #304BD8;
+	font-weight: bold;
+	font-style: normal;
+}
+
+div#sidebar ul li a:hover, div#right-sidebar ul li a:hover {
+	color: #54D42A;
+	padding-bottom: 2px;
+}
+
+/*Footer styles*/
+div#footer {
+	background-color: #003265;
+	clear: both;
+	height: 60px;
+	text-align: center;
+	border: 8px solid #9DA1F8;
+    border-radius:20px;
+}
+
+div#footer p {
+	clear: both;
+    
+	padding: 14px 0;
+	font-size: 20px;
+
+	color: #FFFFFF;
+}
+
+h4{
+    color:orangered;
+}
+div#footer p a {
+	color: #9DA1F8;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+div#footer p a:hover {
+	color: #54D42A;
+	padding-bottom: 2px;
+}
+
+/*Spacer*/
+div#spacer {
+	height: 20px;
+	background-color: transparent;
+}
+/*///////////////////////////////
+FORM STYLE
+///////////////////////////////*/
+form {
+  background: -webkit-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+  background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+  background: linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+  margin: auto;
+  position: relative;
+  width: 350px;
+  height: 550px;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 12px;
+ 
+  line-height: 20px;
+  font-weight: bold;
+  color:purple;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 10px;
+  border: 5px solid deepskyblue;
+  border: inset 1px solid #333;
+  -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+div.err{
+color:red;
+}
+input {
+  width: 330px;
+  display: block;
+  border: 1px solid steelblue;
+  height: 25px;
+  -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+textarea#feedback {
+  width: 175px;
+  height: 150px;
+  display: block;
+}
+
+button {
+  width: 100px;
+  position: relative;
+  right: 20px;
+  bottom: 20px;
+  background: #09C;
+  color: black;
+  font-family: Tahoma, Geneva, sans-serif;
+  height: 30px;
+  border-radius: 15px;
+  border: 1p solid #999;
+}
+
+input.button:hover {
+  background: #fff;
+  color: #09C;
+}

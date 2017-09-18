@@ -1,0 +1,155 @@
+<!-->
+WEB222 
+ASSIGNMENT 5
+JATIN ARORA 
+(136897162)
+<-->
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>A5 WEB</title>
+
+	
+
+	<link rel="stylesheet" type="text/css" href="normalize1.css" />
+    <script src="registration.js"></script>
+	<!--[if IE ]>
+	<link rel="stylesheet" type="text/css" href="./stylesheets/ie-style.css" />
+	<![endif]-->
+
+</head>
+
+<body onLoad="document.myform.name.focus();">
+<div id="outer">
+	<div id="header">
+		<h1>Music Station</h1>
+		
+	</div> <!-- header -->
+<div id="wrap">	
+	<div id="content">
+      
+	<h2 class="page-title">SignUp Form</h2>
+    <section class=main center>
+      <div class="form">
+	     <form id="jobsearch" name="jobsearch" method='post' onsubmit='return validateForm(this);' action='https://httpbin.org/post' >
+            <fieldset class="all">      
+              
+               <div class="innerclass">    
+                    <label>Username<b> *</b></label><input type="text" name="name" id="name" class="inputType" size="20" tabindex="0" onchange="userValidate()"  required/>
+               <div class="err" id="msg2">   </div>
+               </div>
+                <div class="innerclass">    
+               <label >Email<b> *</b></label><input type="email" name="email" size="20" id="emial" class="inputType"   required>
+               </div>
+               <div class="innerclass">       
+               <label>Password<b> *</b></label><input type="password" name="password" id="password" class="inputType" onchange="passwordValidation()"  size="20" tabindex="0" required/>
+               <div class="err" id="msg0">   </div>
+               </div>
+               <div class="innerclass">       
+               <label>Retype Password<b> *</b></label><input type="password" name="repassword" class="inputType" id="repassword" onchange="verifyValidate()" size="20" tabindex="0" required/>
+               <div class="err" id="msg1">   </div>
+               </div>
+               <div class="innerclass">       
+              
+               <div class="innerclass">       
+               
+               </div>
+               <div class="innerclass">       
+               <label>Phone Number<b> *</b></label><input type="tel"  title="Number in ###-###-#### Format" name="pnum" id="pnum" placeholder="999-999-9999" pattern="^\d{3}-\d{3}-\d{4}$"  value="" size="20" onchange="phnValidate()" class="inputType" tabindex="0" required/>
+               <div class="err" id="msg4">   </div>
+               </div>
+               <div class="innerclass">       
+               <label for="add">Street<b> *</b></label><input type="text" name="str" id="str" size="20" class="inputType" tabindex="0" required onchange="streetvalid()"/>
+               <div class="err" id="msg5">  </div>
+               </div>
+               
+               
+                <div class="innerclass">       
+               <label for="zip">ZIP<b> *</b></label><input type="text" name="zip" id="zip" placeholder="A1A1B1" class="inputType" size="20"  tabindex="0" required onchange="validZIP()"/>
+                <div class="err" id="msg7">  </div>
+               </div> 
+               <div class="innerclass">       
+               <label for="city">City<b> *</b></label><input type="text" name="city" id="city" class="inputType" size="20"  tabindex="0" required onchange="cityvalid()"/>
+                <div class="err" id="msg6">  </div>
+               </div> 
+               <div class="innerclass">    
+               <label for="provs">Provinces<b> *</b></label><select class="selectlst" id="provs" name="provs">
+                <optgroup label="Province">
+                <option value="al">Alberta</option>
+                <option value="bc">British Columbia</option>
+                <option value="mb">Manitoba</option>
+                <option value="nb">New Brunswick</option>
+                <option value="nf">Newfoundland and Labrador</option>
+                <option value="ns">Nova Scotia</option>
+                <option selected value="on">Ontario</option>
+                <option value="pe">Prince Edward Island</option>
+                <option value="qc">Quebec</option>
+                <option value="sk">Saskatchewan</option>
+                </optgroup>
+                <optgroup label="Territories">
+                <option value="nt">Northwest Territories</option>
+                <option value="nu">Nunavut</option>
+                <option value="yu">Yukon</option>
+              
+                </optgroup>
+               </select>
+               </div>
+              
+               <div class="innerclass">
+              <input type="hidden" name="lastName" id="lastName" value="Jatin Arora" />
+               <input type="hidden" name="studentId" id="studentId" value="136897162" />   
+               </div>
+               <div class="innerclass">       
+               
+               </div>
+             <h4> Make Sure You Have Provided Correct information</h4>
+            <div class="btn">
+              
+            <input class="button" name="reset"  id="reset"  tabindex="0" value="Reset" type="reset"/>
+            <input class="button" name="submit" id="submit" tabindex="0" value="Apply" type="submit"/>   
+            </div>
+   </form>
+	</div>
+    </section>
+   </div>
+	<div id="right-sidebar">
+
+		<h2>Tips</h2>
+	
+		<p class="note">
+		Make sure you type in correct information.Use special characters in the password to make it strong.Avoid usnig password similar to your email as your email will be visible to other accounts for contacting or connecting with you.Do not share your account details with anyone.
+        <br> 
+
+		</p>
+	<h2>Note</h2>
+    <p class=note>
+        Your information would be used to contact you or verify the information you have provided. To kkep the internet safe constant monitoring of profies will be done to identify any illegal activities.
+    </p>
+	</div> <!-- right sidebar -->
+	
+	
+</div> <!-- wrap -->
+	<div id="sidebar">
+
+		<h2>Menu</h2>
+			<ul class="menu">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="registration.html">Register</a></li>
+				<li><a href="catal.html">Catalogue</a></li>				
+				
+			</ul>
+	
+	
+		
+	</div> <!-- sidebar -->
+	
+	<div id="footer">
+		<p>&copy;2017 JATIN ARORA (136897162)</p>
+	</div> <!-- footer -->
+
+</div> <!-- outer -->
+<div id="spacer">&nbsp;</div>
+</body>
+</html>
